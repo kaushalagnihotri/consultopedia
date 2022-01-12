@@ -23,10 +23,21 @@ app.post('/register', function(req,res){
     var email =req.body.email;
     var pass = req.body.password;
     var phone =req.body.phone;
+    var organization = req.body.organization;
+    var address = req.body.address;
+    var country = req.body.country;
+    var pincode = req.body.pincode;
+    var role = req.body.role;
   
     var data = {
         "name": name,
         "email":email,
+        "organization" :organization,
+        "address" : address,
+        "country" : country,
+        "pincode" : pincode,
+        "aadharNum" : aadharNum,
+        "role" : role,
         "password":pass,
         "phone":phone
     }
