@@ -1,0 +1,10 @@
+.custom-row {
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+
+.raw {
+    max-width: 100%;
+}
